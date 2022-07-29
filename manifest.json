@@ -1,0 +1,30 @@
+{
+    "app_name":"",
+    "version": "",
+    "server": {
+        "prod": {},
+        "test": {}
+    },
+    "datasource":{
+        "driver": "",
+        "depends_on": ["sql_memory"],
+        "excludes": [],
+        "db_config": {
+            "username": "",
+            "password": "",
+            "host": "localhost",
+            "port": 80
+        }
+    },
+    "auth_config": {
+        "protocol": "JWT",
+        "auth_key_time": "",
+        "token_secret_key": "",
+        "refresh_token_time": "",
+        "depends_on": ["sql_memory"],
+        "excludes": []
+    },
+    "security":{
+        "app_secure_key":""
+    }
+}
